@@ -7,20 +7,7 @@
   max-width: 70%;
   margin: 0 auto;
 }
-.header{
-  grid-area: h;
-  background-color: aliceblue;
-}
-.header img{
-  width: 50px;
-}
-.nav{
-  grid-area: n;
-  background-color: aliceblue;
-}
-.content{
-  grid-area: c;
-}
+
 img{
   max-width: 100%;
 }
