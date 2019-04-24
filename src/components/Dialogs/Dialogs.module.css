@@ -5,6 +5,11 @@
 .dialogsItems{
     padding: 10px;
 }
+.dialogsItems a{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+}
 .dialogsItems .active{
     color: red;
 }
