@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './MyPosts.module.css';
-import Post from './Post/Post';
+import Post from './Post/Post.jsx';
 
 const MyPosts = () => {
     return (
@@ -9,8 +9,8 @@ const MyPosts = () => {
             <textarea></textarea>
             <button>Add post</button>
             <button>Remove</button>
-            <Post message="Hi, how are you?" like_counts="15"/>
-            <Post message="Its my first post!" like_counts="20"/>
+            <Post message="Hi, how are you?" likesCount="15"/>
+            <Post message="Its my first post!" likesCount="20"/>
         </div>
     );
 }

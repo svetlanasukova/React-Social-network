@@ -7,7 +7,7 @@ const Post = (p) => {
             <img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/25/1498216547-avatar-neytiri.jpg"/>
             {p.message}
             <div>
-                <span>like - {p.like_counts}</span>
+                <span>like - {p.likesCount}</span>
             </div>
         </div>
     );
