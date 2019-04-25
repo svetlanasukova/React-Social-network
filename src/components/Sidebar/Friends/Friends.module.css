@@ -1,0 +1,14 @@
+.friends{
+
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.friendsWrapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
